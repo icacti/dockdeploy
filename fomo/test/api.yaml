@@ -1,7 +1,7 @@
 services:
-  gin-action:
+  api:
     image: ghcr.io/icacti/gin-action:latest
-    container_name: gin-action-container
+    container_name: api-container
     ports:
       - "18080:8080"
     restart: always
